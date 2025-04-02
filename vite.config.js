@@ -8,6 +8,7 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwindcss()],
+      base: process.env.VITE_BASE_PATH || "/shopping_cart"
     },
   }
 })
