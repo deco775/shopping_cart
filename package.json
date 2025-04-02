@@ -1,5 +1,4 @@
 {
-  "homepage": "https://deco775.github.io/shopping_cart",
   "name": "shopping_cart",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,6 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
